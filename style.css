@@ -1,0 +1,41 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0,0,0,0.9);
+/*    color: rgb(52, 165, 52);*/
+}
+h1{
+    color: steelblue;
+    animation: tilling 0.1s infinite alternate;
+}
+
+@keyframes tilling {
+1.5%, 2%, 5%, 5.5%; {
+    text-shadow:
+   0 1px 1px #000,
+   0  3px #0ff,
+   0 1px 1px #000,
+   0 0 3px #0ff,
+   0 1px 1px #000,
+   0 0 8px #0ff,
+   0 1px 1px #000,
+   0 0 5px #0ff;
+   }
+
+  32%, 34%, 36%, 38%, 40%, 42%, 44%, 46%, 48%{
+    text-shadow:
+      0 1px 5px #0ff,
+      0 0 1px #000,
+      0 1px 3px #0ff,
+      0 0 1px #000,
+      0 1px 8px #0ff,
+      0 0 1px #000,
+      0 1px 3px #0ff,
+      0 0 1px #000;
+      }
+  }
+
